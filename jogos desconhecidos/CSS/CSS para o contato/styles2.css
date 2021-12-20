@@ -1,0 +1,169 @@
+
+h1{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.título{
+    font-weight:900;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-decoration:none !important
+}
+
+.título:hover{
+text-shadow: 
+3px 3px 6px #ccc,
+-6px -6px 3px #333,
+-9px 9px 7px #555,
+12px -12px 7px #444
+} 
+
+h2{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+    
+}
+
+main{
+    background-color: #a202a2;
+}
+
+.menu {
+    display: flex;
+    list-style:none; 
+    border:1px solid; 
+    justify-content: center;
+}
+
+.menu li{
+    position:relative; 
+    float:left; 
+ }
+
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;}
+
+.menu li a:hover{
+    background: purple; 
+    color:#fff; 
+}
+
+footer{
+    background-color: #a202a2;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+
+.Footer div{
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+    display: block;
+}
+
+.texto3{
+    color: white;
+    font-size: 16px;
+}
+
+.fim{
+    color: black;
+    font-size: small;
+}
+
+.perguntas{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border: 3px solid purple;
+
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+    
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.contato{
+    text-align: center;
+}
+
+.Duvida{
+    text-align: center;
+}
+.Duvida1{
+   text-align: center;
+}

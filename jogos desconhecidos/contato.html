@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS/CSS para o contato/styles2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <title>Jogos Desconhecidos</title>
+</head>
+<body>
+    <main>
+        <div class="inicial">
+        <div class="título"><h1> J o g o s - D e s c o n h e c i d o s </h1></div>
+        
+        </div>
+    <div class="Menu+">
+            <nav>
+                <ul class="menu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="Sobre.html">Sobre nós</a></li>
+                      <li><a href="game.html">Games</a></li>
+                      <li><a href="contato.html">Contato</a></li> 
+                </ul>
+        </nav>
+
+        
+    </div>
+    </main>  
+    <h2> Contato</h2>
+    <h3> Aqui você pode entra em contato com o criador do site: </h3>
+    <div class="contato"> 
+        <p style="font-family: 'Bungee Inline', cursive; color: blueviolet; text-align: center;"> Email:  jogosdesconhecidoduvida@gmail.com </p>
+        <p style="font-family: 'Bungee Inline', cursive; color: blueviolet; text-align: center;"> Facebook/Meta:  J0g0s D3sconhecidos </p>  
+    </div>
+    <h3> Envie sua mensagem ou critica:</h3>
+     <br>
+    <hr>
+    <div class="perguntas">
+        <form class="formulario" method="post"> 
+            
+        <p style="font-family: 'Bungee Inline', cursive;"> Envie uma mensagem preenchendo o formulário abaixo</p> 
+            
+            <div class="field">
+                <label for="nome" style="font-family: 'Bungee Inline', cursive;">Seu Nome Game:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+    
+            <div class="field">
+                <label for="email" style="font-family: 'Bungee Inline', cursive;">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>        
+            <div class="field radiobox">
+                <span style="font-family: 'Bungee Inline', cursive;">Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+            <div class="field">
+                <label for="mensagem" style="font-family: 'Bungee Inline', cursive;">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+    
+            <input type="submit" name="acao" value="Enviar" onclick="envia()">
+        </form>
+    </div>
+
+    <div class="fala"> <p style="text-align: center; font-family: 'Bungee Inline', cursive; ;"> Volta para home </p></div>
+    <div class="Duvida">
+    <input type="button" value="Click aqui para volta a home" onclick="home()" style="
+    font-weight: bold;
+    list-style:none; 
+    border: 1px solid black;
+    color: white; 
+    text-decoration:none; 
+    padding:5px 10px;
+    width: 300px;
+    background-color: purple; ">
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <div class="Footer">
+            <div class="texto3"> <p>Email: jogosdesconhecidoduvida@gmail.com</p></div>
+            <div class="texto3"> <p>Facebook: J0g0s D3sconhecidos </p> </div>
+        </div>
+            <div class="Footer">
+            <div class="fim"> 
+            <p> Copyright © 20xx - 20xx xxxxxx   Privacy Policy </p>
+        </div>
+        </div>  
+    
+     </footer> 
+    
+
+
+    <script>
+        function envia(){
+            alert ("Mensagem enviada")
+        }
+
+        function home(){
+       window.location.href = "index.html"
+   }
+    </script>
+</body>
+</html>
